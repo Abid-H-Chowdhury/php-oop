@@ -11,7 +11,7 @@ class person{
     }
    // method
     function show(){
-        echo $this->name . " - " . $this->age . "\n";
+        echo $this->name . " - " . $this->age . "<br>";
     }
 }
 // object of person class
