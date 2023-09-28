@@ -1,10 +1,10 @@
 <?php 
 // class and object
 class person{
-    public $name = "No name";
-    public $age = 0;
+    public $name;
+    public $age;
 
-    //construct method
+
     function __construct($name = "No name" , $age = 0){
    $this->name = $name;
    $this->age = $age;
